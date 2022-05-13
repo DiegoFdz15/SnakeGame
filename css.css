@@ -1,0 +1,77 @@
+body{
+    background: url(./bg.jpg);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#contenedor{
+    background-repeat: no-repeat;
+    background-color: rgb(188, 184, 181);
+    width: 600px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+}
+
+#marco{
+    background-color: rgb(139, 134, 140);
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#divBotones{
+    
+    background-color: rgb(188, 184, 181);
+    width: 600px;
+    height: 500px;
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 100px;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./font.ttf);
+  }
+
+#gameOver{
+    border: 5px solid rgba(0, 0, 0, 0.475);
+    background-color: rgb(100, 135, 67);
+    width: 400px;
+    height: 320px;
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+#gameOverText{
+    font-family: font;
+    color:black;
+    font-size: 68pt;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+button{
+    height: 50px;
+    color: rgba(0, 0, 0, 0.656);
+    width: 100px;
+    border: none;
+    font-size: 24px;
+    box-shadow: none;
+    border-radius: 10px;
+    background-color: rgba(67, 90, 45, 0.481);
+}
