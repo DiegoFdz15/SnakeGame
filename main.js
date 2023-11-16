@@ -111,8 +111,8 @@ function actualizar(){
     }
 
     if (snake[0].x == comida.x && snake[0].y == comida.y){
-        comida.relocate();
         snake[snake.length] = new SnakeBody();
+        comida.relocate();
     }
 }
 

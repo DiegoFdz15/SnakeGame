@@ -58,8 +58,8 @@ export function renderizar(canvas){
 
 export class SnakeBody{
     constructor(){
-        this.x = 20;
-        this.y = 20;
+        this.x = -20;
+        this.y = -20;
         this.vx = 20;
         this.vy = 0;
 

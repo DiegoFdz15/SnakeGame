@@ -4,6 +4,8 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    height: fit-content;
+    overflow-y: hidden;
 }
 
 #contenedor{
